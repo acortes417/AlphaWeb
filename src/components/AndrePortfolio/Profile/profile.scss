@@ -1,0 +1,95 @@
+@import "../../../global.scss";
+.profile{
+  background-color: $mainColor;
+  justify-content: center;
+  align-items: center;
+  
+  .right{
+    height: 100%;
+    .wrapper2{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: fit-content;
+      justify-content: center;
+      align-items: center;
+      .avatar-image{
+        border-radius: 10%;
+        height: 200px;
+        width: 200px;
+      }
+      .iconList{
+        display: flex;
+        flex-direction: row;
+        width: fit-content;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0 0;
+        padding-right: 40px;
+        li{
+          padding: 10px;
+          color: white;
+          .icons{
+            color: white;
+          }
+          .resume{
+            height: 50px;
+            width: 50px;
+          }
+        }
+      }
+      .name-header{
+        color: rgb(116, 200, 245);
+        font-size: 60px;
+        font-weight: 200;
+        margin:0 5px 0;
+      }
+      .description-text{
+        font-size: 30px;
+        font-weight: 200;
+        width: 65%;
+        height: fit-content;
+        margin: 5px 5px 0;
+        color: rgb(197, 209, 178);
+      }
+      .technologies{
+        font-size: 30px;
+        font-weight: 200;
+        width: 65%;
+        height: fit-content;
+        margin: 10px 5px 0;
+        color: white;
+      }
+    }
+    .wrapper3{
+      height: wrap-conent;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin: 20px 0 0;
+      .bottomTwo{        
+        display: grid;
+        font-size: 25px;
+        li{
+          margin:0;
+          padding: 0;
+          list-style: none;
+          grid-template-columns: 1fr auto;
+          align-items: center;
+          .icon{
+            font-style: 25px;
+            color:rgb(116, 200, 245);
+          }
+          a{
+            font-size: inherit;
+            color:rgb(116, 200, 245);
+            font-weight: 100;
+          }
+        }
+      }
+    }
+    
+    
+  }
+   
+}

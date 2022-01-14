@@ -1,0 +1,16 @@
+@import "../../../global.scss";
+.Intro{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    .appDescription{
+        color:white;
+        margin: 20vh 15vh 50vh;
+        font-weight: 200;
+        font-size: 50px;
+        text-align: center;
+    }
+}

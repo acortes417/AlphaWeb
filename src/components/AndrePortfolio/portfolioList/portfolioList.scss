@@ -1,0 +1,14 @@
+@import "../../../global.scss";
+.portfolioList{
+    font-size: 15px;
+    margin-right: 5px;
+    padding: 7px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    
+    &.active{
+        background-color: $menuClickColor;
+        color: rgb(116, 200, 245);
+    }
+}
