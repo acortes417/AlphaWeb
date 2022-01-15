@@ -13,7 +13,7 @@ export default function Menu({ menuOpen, setMenuOpen }) {
                     <a href="#Backend">WatchList</a>
                 </li>
                 <li onClick={() => setMenuOpen(false)}>
-                    <a href="#FireBaase">Stock Page</a>
+                    <a href="#StockPage">Stock Page</a>
                 </li>
             </ul>
         </div>
