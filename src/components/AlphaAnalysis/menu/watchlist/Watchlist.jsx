@@ -11,6 +11,14 @@ export default function Watchlist() {
                         <img src={watchlistDemo} alt="" className='logo'/>
                     </div>
                 </div>
+                <div className="right">
+                    <div className="itemContainer">
+                        <h2> The watchlist is a list of stocks that the user can add stocks to by selecting the "add stock to watchlist
+                            button when viewing a stock on the Stock Page. Information about current price, percent changes, and price 
+                            changes can be viewed on the watchlist table view.
+                        </h2>
+                    </div>
+                </div>
             </div>
         </div>
     )
