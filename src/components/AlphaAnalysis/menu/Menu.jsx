@@ -1,5 +1,4 @@
 import "./Menu.scss"
-import Watchlist from "./Watchlist/Watchlist"
 export default function Menu({ menuOpen, setMenuOpen }) {
     return (
         <div className={"menu " + (menuOpen && "active")}>
@@ -11,7 +10,6 @@ export default function Menu({ menuOpen, setMenuOpen }) {
                     <a href="#Frontend">Portfolio</a>
                 </li>
                 <li onClick={() => setMenuOpen(false)}>
-                    Watchlist()
                     <a href="#Backend">WatchList</a>
                 </li>
                 <li onClick={() => setMenuOpen(false)}>
