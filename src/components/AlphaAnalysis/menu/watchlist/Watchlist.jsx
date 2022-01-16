@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Watchlist.scss"
-import watchlistDemo from "../../../assets/WatchlistFunctionality.gif"
+import watchlistDemo from "../../../../assets/WatchlistFunctionality.gif"
 
 export default function Watchlist() {
     return (
