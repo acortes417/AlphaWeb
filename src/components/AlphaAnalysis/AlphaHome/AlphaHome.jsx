@@ -2,6 +2,7 @@ import "./AlphaHome.scss"
 import Topbar from "../topbar/Topbar"
 import Menu from "../menu/Menu"
 import Intro from "../Intro/Intro"
+import Overview from "../Overview/Overview"
 import { useState } from "react"
 export default function AlphaHome() {
     const [menuOpen, setMenuOpen] = useState(false)
@@ -11,6 +12,15 @@ export default function AlphaHome() {
             <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
             <div className="sections">
                 <Intro />
+                <Overview />
+                {/*  
+                // description (Andre)
+                //adding brokerages(andre)
+                //search functionality(michael)
+                //stock page & stock page(lawrence)
+                //watchlists (michael)
+                //market watch (lawrence)
+                */}
             </div>
         </div>
     )

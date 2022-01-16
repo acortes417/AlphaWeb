@@ -1,0 +1,41 @@
+.Overview{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .top{
+        margin-bottom: 10vh;
+        h1{
+            color: white;
+            font-size: 50px;
+            font-weight: 100;
+        }
+    }
+    .bottom{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        img{
+            width:fit-content;
+            height: fit-content;
+            margin-left: 5vh;
+        }
+        ul{
+            width:fit-content;
+            height: fit-content;
+            
+            li{
+                padding-bottom: 50px;
+                h1{
+                    a{
+                        color: beige;
+                    }
+                    font-size: 20px;
+                    font-weight: 100;
+                    color: white;
+                }
+            }
+        }
+    }
+    
+}

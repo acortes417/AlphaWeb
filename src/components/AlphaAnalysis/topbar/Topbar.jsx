@@ -4,7 +4,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
         <div className={"topbar " + (menuOpen && "active")}>
             <div className="wrapper">
                 <div className="left">
-                    <a href="#intro" className="logo">Alpha</a>
+                    <img src="https://t4.ftcdn.net/jpg/03/81/04/27/360_F_381042793_8YESDNPxXds2UCeZ1BEDXOudHQOWF7eE.jpg" href="#intro" className="logo" />
                 </div>
                 <div className="right">
                     <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
