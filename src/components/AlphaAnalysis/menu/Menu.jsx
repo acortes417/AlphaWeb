@@ -13,7 +13,10 @@ export default function Menu({ menuOpen, setMenuOpen }) {
                     <a href="#Watchlist">WatchList</a>
                 </li>
                 <li onClick={() => setMenuOpen(false)}>
-                    <a href="#FireBaase">Stock Page</a>
+                    <a href="#StockPage">Stock Page</a>
+                </li>
+                <li onClick={() => setMenuOpen(false)}>
+                    <a href="#MarketWatch">Market Watch</a>
                 </li>
             </ul>
         </div>
