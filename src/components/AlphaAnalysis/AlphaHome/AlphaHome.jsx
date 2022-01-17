@@ -2,9 +2,11 @@ import "./AlphaHome.scss"
 import Topbar from "../topbar/Topbar"
 import Menu from "../menu/Menu"
 import Intro from "../Intro/Intro"
+import StockPage from "../StockPage/StockPage"
 import Watchlist from "../menu/watchlist/Watchlist"
 import Overview from "../Overview/Overview"
 import { useState } from "react"
+import MarketWatch from "../MarketWatch/MarketWatch"
 export default function AlphaHome() {
     const [menuOpen, setMenuOpen] = useState(false)
     return (
@@ -15,6 +17,8 @@ export default function AlphaHome() {
                 <Intro />
                 <Overview />
                 <Watchlist/>
+                <StockPage/>
+                <MarketWatch/>
                 {/*  
                 // description (Andre)
                 //adding brokerages(andre)
