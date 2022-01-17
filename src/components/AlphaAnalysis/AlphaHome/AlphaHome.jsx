@@ -2,6 +2,7 @@ import "./AlphaHome.scss"
 import Topbar from "../topbar/Topbar"
 import Menu from "../menu/Menu"
 import Intro from "../Intro/Intro"
+import Watchlist from "../menu/watchlist/Watchlist"
 import Overview from "../Overview/Overview"
 import { useState } from "react"
 export default function AlphaHome() {
@@ -13,6 +14,7 @@ export default function AlphaHome() {
             <div className="sections">
                 <Intro />
                 <Overview />
+                <Watchlist/>
                 {/*  
                 // description (Andre)
                 //adding brokerages(andre)
