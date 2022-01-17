@@ -1,5 +1,6 @@
 import "./Overview.scss"
-import { LockOpen } from "@mui/icons-material"
+import { LockOpen, FormatListBulletedSharp, LightbulbSharp, TimelineSharp } from "@mui/icons-material"
+import { fontWeight } from "@mui/system"
 export default function Overview() {
     return (
         <div className="Overview" id="Overview">
@@ -8,38 +9,59 @@ export default function Overview() {
                     Built to help Investors
                 </h1>
             </div>
-
-            <div className="bottom">
-                {/* <img src="https://media.istockphoto.com/photos/mobile-phone-top-view-with-white-screen-picture-id1161116588?k=20&m=1161116588&s=612x612&w=0&h=NKv_O5xQecCHZic53onobxjqGfW7I-D-tBrzXaPbj_Q=" /> */}
-                <ul>
-                    <li>
-                        <LockOpen sx={{
-                            color: 'white',
-                            fontSize: 50
-                        }} />
-                        <h1>
-                            Using <a href="https://plaid.com/" target="_blank"> Plaid</a> we allow users
-                            to securly link their brokerage accounts.
-                        </h1>
-                    </li>
-                    <li>
-                        <h1 >
-                            Make personal Watchlist to monitor your plays or fut
-                        </h1>
-                    </li>
-                    <li>
-                        <h1 >
-                            Link mutltiple brokerages to track all your investments in one Application
-                        </h1>
-                    </li>
-                    <li>
-                        <h1>
-                            Link mutltiple brokerages to track all your investments in one Application
-                        </h1>
-                    </li>
-                </ul>
+            <div className="wrapper">
+                <div className="one">
+                    <LockOpen className="icon" sx={{
+                        color: 'white',
+                        fontSize: 75
+                    }} />
+                    <h1>Security</h1>
+                    <h2>
+                        Using <a href="https://plaid.com/" target="_blank" rel="noreferrer"> Plaid</a> we allow users
+                        to securly link their brokerage accounts. No credentials are stored and there is no way for user
+                        information to leak.
+                    </h2>
+                </div>
+                <div className="two">
+                    <FormatListBulletedSharp className="icon" sx={{
+                        color: 'white',
+                        fontSize: 75
+                    }} />
+                    <h1>
+                        Customization
+                    </h1>
+                    <h2>
+                        Make your own personal watchlist that informs you on how your investments are
+                        doing today in the stock marker. We notify you every day on your top movers.
+                    </h2>
+                </div>
+                <div className="three">
+                    <LightbulbSharp className="icon" sx={{
+                        color: 'white',
+                        fontSize: 75
+                    }} />
+                    <h1>
+                        Informative
+                    </h1>
+                    <h2>
+                        Users are able to search and compare their current invesstments
+                        finances. Allowing users to make informative descions on their positions.
+                    </h2>
+                </div>
+                <div className="four">
+                    <TimelineSharp className="icon" sx={{
+                        color: 'white',
+                        fontSize: 75
+                    }} />
+                    <h1>
+                        Customization
+                    </h1>
+                    <h2>
+                        Track your investment portfolio in each brokerage you link. We keep track of all your holding.
+                        We aggregate your total portfolio value in one place.
+                    </h2>
+                </div>
             </div>
-
         </div>
     )
 }

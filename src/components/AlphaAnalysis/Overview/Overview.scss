@@ -1,9 +1,13 @@
+@import "../../../global.scss";
 .Overview{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     .top{
+        width: 75%;
+        display: flex;
+        align-items: flex-start;
         margin-bottom: 10vh;
         h1{
             color: white;
@@ -11,30 +15,81 @@
             font-weight: 100;
         }
     }
-    .bottom{
+    .wrapper{
         display: grid;
+        width: 75%;
+        grid-auto-rows: minmax(100px, auto);
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        color: white;
         align-items: center;
         justify-content: center;
-        img{
-            width:fit-content;
-            height: fit-content;
-            margin-left: 5vh;
-        }
-        ul{
-            width:fit-content;
-            height: fit-content;
-            
-            li{
-                padding-bottom: 50px;
-                h1{
-                    a{
-                        color: beige;
-                    }
-                    font-size: 20px;
-                    font-weight: 100;
-                    color: white;
-                }
+       .one{
+           width: 100%;
+           height: 100%;
+           grid-column: 1;
+           grid-row: 1;
+           h1{
+               font-size: 30px;
+               padding: 10px 0 10px;
+               font-weight: 300;
+           }
+           h2{
+            font-size: 20px;
+            font-weight: 100;
+           }
+           color: white;
+       }
+       .two{
+            width: 100%;
+            height: 100%;
+            grid-column: 1;
+            grid-row: 2;
+            color: white;
+            h1{
+                font-size: 30px;
+                padding: 10px 0 10px;
+                font-weight: 300;
             }
+            h2{
+             font-size: 20px;
+             font-weight: 100;
+            }
+            color: white;
+        }
+        .three{
+            width: 100%;
+            height: 100%;
+            grid-column: 2;
+            grid-row: 1;
+            color: white;
+            h1{
+                font-size: 30px;
+                padding: 10px 0 10px;
+                font-weight: 300;
+            }
+            h2{
+             font-size: 20px;
+             font-weight: 100;
+            }
+            color: white;
+        }
+        .four{
+            width: 100%;
+            height: 100%;
+            grid-column: 2;
+            grid-row: 2;
+            color: white;
+            h1{
+                font-size: 30px;
+                padding: 10px 0 10px;
+                font-weight: 300;
+            }
+            h2{
+             font-size: 20px;
+             font-weight: 100;
+            }
+            color: white;
         }
     }
     
