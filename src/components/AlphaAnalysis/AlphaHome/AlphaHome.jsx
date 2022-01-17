@@ -2,6 +2,7 @@ import "./AlphaHome.scss"
 import Topbar from "../topbar/Topbar"
 import Menu from "../menu/Menu"
 import Intro from "../Intro/Intro"
+import Overview from "../Overview/Overview"
 import StockPage from "../StockPage/StockPage"
 import Watchlist from "../menu/watchlist/Watchlist"
 import Search from "../menu/searchFunctionality/Search"
@@ -15,7 +16,7 @@ export default function AlphaHome() {
             <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
             <div className="sections">
                 <Intro />
-                <Overview />
+                <Overview/>
                 <Watchlist/>
                 <Search/>
                 <StockPage/>
