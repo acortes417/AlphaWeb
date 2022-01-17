@@ -15,6 +15,9 @@ export default function Menu({ menuOpen, setMenuOpen }) {
                 <li onClick={() => setMenuOpen(false)}>
                     <a href="#StockPage">Stock Page</a>
                 </li>
+                <li onClick={() => setMenuOpen(false)}>
+                    <a href="#MarketWatch">Market Watch</a>
+                </li>
             </ul>
         </div>
     )
