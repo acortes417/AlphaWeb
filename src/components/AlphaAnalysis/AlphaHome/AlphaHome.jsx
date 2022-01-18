@@ -5,6 +5,8 @@ import Intro from "../Intro/Intro"
 import StockPage from "../StockPage/StockPage"
 import Watchlist from "../menu/watchlist/Watchlist"
 import Search from "../menu/searchFunctionality/Search"
+import Overview from "../Overview/Overview"
+import Plaid from "../Plaid/Plaid"
 import { useState } from "react"
 import MarketWatch from "../MarketWatch/MarketWatch"
 export default function AlphaHome() {
@@ -16,10 +18,11 @@ export default function AlphaHome() {
             <div className="sections">
                 <Intro />
                 <Overview />
-                <Watchlist/>
-                <Search/>
-                <StockPage/>
-                <MarketWatch/>
+                <Plaid />
+                <Watchlist />
+                <Search />
+                <StockPage />
+                <MarketWatch />
                 {/*  
                 // description (Andre)
                 //adding brokerages(andre)
