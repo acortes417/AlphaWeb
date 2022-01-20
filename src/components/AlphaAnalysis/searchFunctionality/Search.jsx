@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Search.scss"
-import searchDemo from "../../../../assets/SearchFunctionality.gif"
+import searchDemo from "../../../assets/SearchFunctionality.gif"
 
 export default function Search() {
     return (
@@ -8,7 +8,7 @@ export default function Search() {
             <div className="wrapper">
                 <div className="left">
                     <div className="itemContainer">
-                        <img src={searchDemo} alt="" className='logo'/>
+                        <img src={searchDemo} alt="" className='logo' />
                     </div>
                 </div>
                 <div className="right">

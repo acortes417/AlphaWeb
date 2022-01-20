@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Watchlist.scss"
-import watchlistDemo from "../../../../assets/WatchlistFunctionality.gif"
+import watchlistDemo from "../../../assets/WatchlistFunctionality.gif"
 
 export default function Watchlist() {
     return (
@@ -8,13 +8,13 @@ export default function Watchlist() {
             <div className="wrapper">
                 <div className="left">
                     <div className="itemContainer">
-                        <img src={watchlistDemo} alt="" className='logo'/>
+                        <img src={watchlistDemo} alt="" className='logo' />
                     </div>
                 </div>
                 <div className="right">
                     <div className="itemContainer">
                         <h2> The watchlist is a list of stocks that the user can add stocks to by selecting the "add stock to watchlist
-                            button when viewing a stock on the Stock Page. Information about current price, percent changes, and price 
+                            button when viewing a stock on the Stock Page. Information about current price, percent changes, and price
                             changes can be viewed on the watchlist table view.
                         </h2>
                     </div>

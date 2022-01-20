@@ -7,9 +7,9 @@
     background-color: rgb(85, 105, 126);
     .top{
         width: 75%;
+        height: 20%;
         display: flex;
         align-items: flex-start;
-        margin-bottom: 10vh;
         h1{
             color: white;
             font-size: 50px;
@@ -19,6 +19,7 @@
     .wrapper{
         display: grid;
         width: 75%;
+        height: 100%;
         grid-auto-rows: minmax(100px, auto);
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 20px;

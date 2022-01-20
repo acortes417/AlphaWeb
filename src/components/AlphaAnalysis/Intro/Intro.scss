@@ -6,9 +6,11 @@
     flex-direction: column;
     height: 100%;
     width: 100%;
-    .appDescription{
+    h1{
+        width: 80%;
+        height: 50%;
         color:white;
-        margin: 20vh 15vh 50vh;
+        margin: 0 15vh 0;
         font-weight: 200;
         font-size: 50px;
         text-align: center;
