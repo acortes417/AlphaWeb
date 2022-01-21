@@ -1,6 +1,10 @@
 .Top{
     height: 100%;
     width: 100%;
+    .Tabs{
+        width: 20%;
+        color: white;
+    }
 }
 .BoxTab{    
     justify-content: center;
@@ -12,8 +16,7 @@
         width: 100%;
         display: flex;
         align-items: center;
-        justify-content: center;    
-        
+        justify-content: center;           
     }
 }
     

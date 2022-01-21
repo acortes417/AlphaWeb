@@ -1,0 +1,116 @@
+.Portfolio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .topWrapper{
+        padding-top: 5%;
+        width: 60%;
+        height: 20%;
+        display: flex;
+        align-items: flex-start;
+        h1{
+            color: white;
+            font-size: 50px;
+            font-weight: 100;
+        }
+    }
+    .wrapper{
+        height: 80%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10%;
+        .andre{
+            flex:.25;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .avatar{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .top{
+                    img{
+                        border-radius: 50%;   
+                        height: auto;
+                        width: auto;            
+                    }
+                }
+                .bottom{
+                    h1{
+                        font-weight: 300;
+                        color: white;
+                        height: auto;
+                        width: auto;
+                        padding-top: 30px;
+                    }
+                
+                }
+            }
+        }
+        .lawrence{
+            flex:.25;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .avatar{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .top{
+                    display: flex;
+                    .icon{
+                        padding-left: 15%;
+                        height: 70%;
+                        width: 70%;         
+                    }
+                }
+                .bottom{
+                    h1{
+                        font-weight: 300;
+                        color: white;
+                        height: auto;
+                        width: auto;
+                        padding-top: 30px;
+                    }
+                
+                }
+            }
+        }
+        .michael{
+            flex:.25;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .avatar{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .top{
+                    img{
+                        height: auto;
+                        width: auto;
+                        border-radius: 50%;           
+                    }
+                }
+                .bottom{
+                    h1{
+                        width: auto;
+                        height: auto;
+                        font-weight: 300;
+                        color: white;
+                        padding-top: 30px;
+                    }
+                
+                }
+            }
+        }
+    }
+    
+}
