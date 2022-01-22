@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.801ce97c.css",
+    "main.js": "/static/js/main.f36840b3.js",
+    "static/media/MarketWatch.gif": "/static/media/MarketWatch.d6cf84b73b288c438dc2.gif",
+    "static/media/MainPage.gif": "/static/media/MainPage.f912c62462033afdd8cf.gif",
+    "static/media/CompareStockPage.gif": "/static/media/CompareStockPage.f6c12097514665ddc0bf.gif",
+    "static/media/StockPage.gif": "/static/media/StockPage.8127e40cc3435b4b8eff.gif",
+    "static/media/WatchlistFunctionality.gif": "/static/media/WatchlistFunctionality.26b52ee2c37f93cba21a.gif",
+    "static/media/Plaid.gif": "/static/media/Plaid.989c982e87acaf919316.gif",
+    "static/media/SearchFunctionality.gif": "/static/media/SearchFunctionality.6b116531bd85ffea88c4.gif",
+    "static/media/AndreCortesResume-converted.pdf": "/static/media/AndreCortesResume-converted.e605e35df3412d6c1e22.pdf",
+    "index.html": "/index.html",
+    "main.801ce97c.css.map": "/static/css/main.801ce97c.css.map",
+    "main.f36840b3.js.map": "/static/js/main.f36840b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.801ce97c.css",
+    "static/js/main.f36840b3.js"
+  ]
+}
