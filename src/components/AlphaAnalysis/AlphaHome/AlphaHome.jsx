@@ -5,9 +5,9 @@ import Intro from "../Intro/Intro"
 import StockPage from "../StockPage/StockPage"
 import Watchlist from "../menu/watchlist/Watchlist"
 import Search from "../menu/searchFunctionality/Search"
+import Overview from "../Overview/Overview"
 import { useState } from "react"
 import MarketWatch from "../MarketWatch/MarketWatch"
-import Search from "../menu/searchFunctionality/Search"
 export default function AlphaHome() {
     const [menuOpen, setMenuOpen] = useState(false)
     return (
