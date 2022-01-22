@@ -1,10 +1,16 @@
 import React from 'react'
 import "./Watchlist.scss"
+import { fontWeight } from "@mui/system"
 import watchlistDemo from "../../../../assets/WatchlistFunctionality.gif"
 
 export default function Watchlist() {
     return (
         <div className="Watchlist" id="Watchlist">
+            <div className="top">
+                <h1>
+                    The Watchlist
+                </h1>
+            </div>
             <div className="wrapper">
                 <div className="left">
                     <div className="itemContainer">
