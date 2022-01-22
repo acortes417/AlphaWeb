@@ -1,25 +1,46 @@
 .Search{
     display:flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     overflow: hidden;
 
+    .top{
+        width: 75%;
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 10vh;
+        h1{
+            color: white;
+            font-size: 50px;
+            font-weight: 100;
+        }
+    }
     .wrapper{
         padding: 0px 150px;
+        padding-left: 12%;
         display: flex;
         align-items: center;
+        align-items:flex-start;
         justify-content: space-between;
+        overflow: hidden;
         
         .left{
             flex: .25;
+            flex: 25%;
             align-items: center;
             flex-wrap: wrap;
             justify-content: space-between;
             flex-direction: column;
+            justify-content: center;
+            
 
             .itemContainer{
                 img{
                     width: 250px;
                     height: auto;
+                    padding: 10px;
                 }
                 display: flex;
                 align-items: center;
@@ -27,7 +48,10 @@
         }
         .right{
             flex: .5;
+            flex: 50%;
             align-items: center;
+            justify-content: center;
+            color: white;
 
             .itemContainer{
                 color:white;
@@ -38,8 +62,14 @@
                 img{
                     width: 150px;
                     height: 150px;
+                padding: 5%;
+                h2{
+                    padding: 3.5%;
+                    font-size: 25px;
+                    font-weight: 100;
                 }
             }
         }
     }
+}
 }

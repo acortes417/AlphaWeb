@@ -5,6 +5,11 @@ import searchDemo from "../../../../assets/SearchFunctionality.gif"
 export default function Search() {
     return (
         <div className="Search" id="Search">
+            <div className='top'>
+                <h1>
+                    Searching
+                </h1>
+            </div>
             <div className="wrapper">
                 <div className="left">
                     <div className="itemContainer">
