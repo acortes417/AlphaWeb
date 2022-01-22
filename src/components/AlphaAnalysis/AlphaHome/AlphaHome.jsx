@@ -6,6 +6,7 @@ import Overview from "../Overview/Overview"
 import MenuScreen from "../MenuScreen/MenuScreen"
 import { useState } from "react"
 import Portfolio from "../Portfolios/Portfolios"
+
 export default function AlphaHome() {
     const [menuOpen, setMenuOpen] = useState(false)
     return (

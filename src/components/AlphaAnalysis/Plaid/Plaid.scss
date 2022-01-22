@@ -9,7 +9,6 @@
         width: 75%;
         display: flex;
         align-items: flex-start;
-        background-color: blue;
         h1{
             color: white;
             font-size: 50px;
@@ -21,7 +20,6 @@
         align-items: center;
         justify-content: center;
         width: 75%;
-        background-color: red;
         .right{
             display: flex;
             align-items: center;
@@ -30,7 +28,7 @@
             height: 100%;       
             img{
                 width: 250px;
-                height: auto;          
+                height: auto;
             }  
                 
         }

@@ -1,9 +1,10 @@
+@import "../../../global.scss";
 .app{
     height: 100vh;
     .sections{
         width: 100%;
         height: calc(100vh - 70px);
-        background-color: salmon;
+        background-color: $mainColor;
         position: relative;
         top: 70px;
         scroll-behavior: smooth;
