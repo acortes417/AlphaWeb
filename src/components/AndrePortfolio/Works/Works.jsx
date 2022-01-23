@@ -3,7 +3,7 @@ import PortfolioList from "../portfolioList/PortfolioList";
 import { useEffect, useState } from "react";
 export default function Work() {
     const [selected, setSelected] = useState("mobile");
-    const [data, setData] = useState([])
+    const [, setData] = useState([])
     const list = [
         {
             id: "mobile",
