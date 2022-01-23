@@ -13,7 +13,7 @@ export default function Plaid() {
                         color: 'white',
                         fontSize: 50
                     }} />
-                    <h1></h1>
+                    <h1>Plaid allows user to be able to link multiple brokerages with our app</h1>
                 </div>
                 <div className="right">
                     <img src={PlaidGif} alt="" ></img>

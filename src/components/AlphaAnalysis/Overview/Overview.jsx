@@ -1,6 +1,5 @@
 import "./Overview.scss"
 import { LockOpen, FormatListBulletedSharp, LightbulbSharp, TimelineSharp } from "@mui/icons-material"
-import { fontWeight } from "@mui/system"
 export default function Overview() {
     return (
         <div className="Overview" id="Overview">

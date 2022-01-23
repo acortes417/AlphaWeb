@@ -42,42 +42,42 @@ export default function Profile() {
                     <ul className="bottomTwo">
                         <li>
                             <ArrowRight className="icon" />
-                            <a className="label">Python</a>
+                            <a className="label" href="#/">Python</a>
                         </li>
                         <li>
                             <ArrowRight className="icon" />
-                            <a className="label">Kotlin</a>
-                        </li>
-                    </ul>
-                    <ul className="bottomTwo">
-                        <li>
-                            <ArrowRight className="icon" />
-                            <a className="label">Java</a>
-                        </li>
-                        <li>
-                            <ArrowRight className="icon" />
-                            <a className="label">Node.js</a>
+                            <a className="label" href="#/">Kotlin</a>
                         </li>
                     </ul>
                     <ul className="bottomTwo">
                         <li>
                             <ArrowRight className="icon" />
-                            <a className="label">Flask</a>
+                            <a className="label" href="#/">Java</a>
                         </li>
                         <li>
                             <ArrowRight className="icon" />
-                            <a className="label">Android Stuido</a>
+                            <a className="label" href="#/">Node.js</a>
+                        </li>
+                    </ul>
+                    <ul className="bottomTwo">
+                        <li>
+                            <ArrowRight className="icon" />
+                            <a className="label" href="#/">Flask</a>
+                        </li>
+                        <li>
+                            <ArrowRight className="icon" />
+                            <a className="label" href="#/">Android Stuido</a>
                         </li>
 
                     </ul>
                     <ul className="bottomTwo">
                         <li>
                             <ArrowRight className="icon" />
-                            <a className="label">Firebase</a>
+                            <a className="label" href="#/">Firebase</a>
                         </li>
                         <li>
                             <ArrowRight className="icon" />
-                            <a className="label">React</a>
+                            <a className="label" href="#/">React</a>
                         </li>
                     </ul>
                 </div>
