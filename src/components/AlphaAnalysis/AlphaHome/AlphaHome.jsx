@@ -4,6 +4,7 @@ import Menu from "../menu/Menu"
 import Intro from "../Intro/Intro"
 import StockPage from "../StockPage/StockPage"
 import Watchlist from "../menu/watchlist/Watchlist"
+import SearchClass from "../menu/searchFunctionality/Search"
 import Search from "../menu/searchFunctionality/Search"
 import Overview from "../Overview/Overview"
 import Plaid from "../Plaid/Plaid"
@@ -17,6 +18,7 @@ export default function AlphaHome() {
             <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
             <div className="sections">
                 <Intro />
+                <SearchClass/>
                 <Overview />
                 <Plaid />
                 <Watchlist />
