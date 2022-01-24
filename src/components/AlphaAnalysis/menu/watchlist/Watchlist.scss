@@ -1,5 +1,4 @@
 .Watchlist{
-    display:flex;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,7 +37,7 @@
 
             .itemContainer{
                 img{
-                    width: 250px;
+                    width: 350px;
                     height: auto;
                     padding: 10px;
                 }

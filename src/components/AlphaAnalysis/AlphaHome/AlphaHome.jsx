@@ -4,8 +4,7 @@ import Menu from "../menu/Menu"
 import Intro from "../Intro/Intro"
 import StockPage from "../StockPage/StockPage"
 import Watchlist from "../menu/watchlist/Watchlist"
-import Search from "../menu/searchFunctionality/Search"
-import Overview from "../Overview/Overview"
+import SearchClass from "../menu/searchFunctionality/Search"
 import { useState } from "react"
 import MarketWatch from "../MarketWatch/MarketWatch"
 export default function AlphaHome() {
@@ -16,9 +15,8 @@ export default function AlphaHome() {
             <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
             <div className="sections">
                 <Intro />
-                <Overview />
                 <Watchlist/>
-                <Search/>
+                <SearchClass/>
                 <StockPage/>
                 <MarketWatch/>
                 {/*  
