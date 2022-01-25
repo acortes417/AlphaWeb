@@ -1,45 +1,62 @@
 .Watchlist{
-    display:flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     overflow: hidden;
-
-    .wrapper{
-        padding: 0px 150px;
+    .top{
+        width: 93%;
+        padding: 10px;
         display: flex;
-        align-items: center;
+        align-items: flex-start;
+        overflow: hidden;
+        h1{
+            color: white;
+            font-size: 50px;
+            font-weight: 100;
+        }
+    }
+    .wrapper{
+        padding-left: 3%;
+        display: flex;
+        align-items:flex-start;
         justify-content: space-between;
-        
+        overflow: hidden;  
         .left{
-            flex: .25;
+            flex:50%;
             align-items: center;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            flex-direction: column;
-
+            display: flex;
+            justify-content: center;
+            width: 100%;
             .itemContainer{
                 img{
-                    width: 250px;
-                    height: auto;
+                    height: 690px;
+                    width: auto;
                 }
                 display: flex;
                 align-items: center;
+        
             }
+           
         }
-        .right{
-            flex: .5;
+        ul{
+            flex:50%;
             align-items: center;
-
-            .itemContainer{
-                color:white;
+            justify-content: center;
+            
+            li{
                 display: flex;
                 align-items: center;
-                justify-content: center;
-                padding: 0px;
-                img{
-                    width: 150px;
-                    height: 150px;
+                padding: 5%;
+                .icon{
+                    padding-right: 15px;
+                }
+                h2{
+                    color: white;
+                    font-size: 20px;
+                    font-weight: 100;
                 }
             }
-        }
+        }                   
     }
 }

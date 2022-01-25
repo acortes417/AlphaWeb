@@ -9,15 +9,28 @@ export default function Plaid() {
             </div>
             <div className="wrapper">
                 <div className="left">
-                    <FilterNoneSharp className="icon" sx={{
-                        color: 'white',
-                        fontSize: 50
-                    }} />
-                    <h1>Plaid allows user to be able to link multiple brokerages with our app</h1>
+                    <div className="itemContainer">
+                        <img src={PlaidGif} alt="" ></img>
+                    </div>
+
                 </div>
-                <div className="right">
-                    <img src={PlaidGif} alt="" ></img>
-                </div>
+                <ul>
+                    <li>
+                        <FilterNoneSharp className="icon" sx={{
+                            color: 'white',
+                            fontSize: 75
+                        }} />
+                        <h1>Plaid allows user to be able to link multiple brokerages with our app</h1>
+                    </li>
+                    <li>
+                        <FilterNoneSharp className="icon" sx={{
+                            color: 'white',
+                            fontSize: 75
+                        }} />
+                        <h1>Plaid allows user to be able to link multiple brokerages with our app</h1>
+                    </li>
+                </ul>
+
             </div>
 
         </div>
