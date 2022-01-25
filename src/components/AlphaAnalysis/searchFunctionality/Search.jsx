@@ -8,7 +8,7 @@ export default function SearchClass() {
         <div className="Search" id="Search">
             <div className='top'>
                 <h1>
-                    Searching
+                    Suggestive Search Bar
                 </h1>
             </div>
             <div className="wrapper">

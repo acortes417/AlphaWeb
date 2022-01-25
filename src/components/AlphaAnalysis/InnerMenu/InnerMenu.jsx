@@ -34,7 +34,7 @@ function a11yProps(index) {
 }
 const styles = {
     default_tab: {
-        color: '#4b4b4b'
+        color: 'black'
     },
     active_tab: {
         color: 'white'
@@ -52,7 +52,7 @@ export default function InnerMenu() {
     return (
         <Box
             className="Top"
-            sx={{ flexGrow: 1, bgcolor: 'black', display: 'flex' }}
+            sx={{ flexGrow: 1, bgcolor: '51516b', display: 'flex' }}
         >
             <Tabs
                 className="Tabs"
