@@ -33,7 +33,7 @@ export default function StockPage() {
                     </div>
                     <div className="itemContainer">
                         <CalendarToday className="icon" sx={{color:'White',fontSize:75}}/>
-                        <h2>Line charts, candlesticks and key data are readily displayed to give an extra boost on information</h2>
+                        <h2>Line charts, candlesticks and key data are readily displayed to give an extra boost on information.</h2>
                     </div>
                     <div className="itemContainer">
                         <AttachMoney className="icon" sx={{color:'White',fontSize:75}}/>
