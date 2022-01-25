@@ -31,11 +31,11 @@ export default function MarketWatch() {
                     </div>
                     <div className="itemContainer">
                         <Storefront className="icon" sx={{ color: 'White', fontSize: 75 }} />
-                        <h2>Get four main ETFs information to see which ETF is performing better than the others.</h2>
+                        <h2>Users will be able update on how the four major indices are performing in the home page</h2>
                     </div>
                     <div className="itemContainer">
                         <Sort className="icon" sx={{ color: 'White', fontSize: 75 }} />
-                        <h2>Sort by many different categories to get a better look on what each stock is doing well or poorly in.</h2>
+                        <h2>Custom sortable data tables were created so users more easliy keep track of thier watchlist and the general market</h2>
                     </div>
                     <div className="itemContainer">
                         <EventNote className="icon" sx={{ color: 'White', fontSize: 75 }} />
