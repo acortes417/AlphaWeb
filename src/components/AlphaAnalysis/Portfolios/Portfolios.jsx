@@ -31,7 +31,7 @@ export default function Portfolio() {
                 <div className="michael">
                     <div className="avatar">
                         <div className="top">
-                            <img className="avatar-image" alt="" src="https://media-exp1.licdn.com/dms/image/C5635AQGy-8_-8tD-pg/profile-framedphoto-shrink_200_200/0/1617672769411?e=1642813200&v=beta&t=5dGKAlwkV8bJ98mjQM-2lXg3xLPpP12x_cuPxdUsIuQ" />
+                            <img className="avatar-image" alt="" src="https://media-exp1.licdn.com/dms/image/C5635AQGy-8_-8tD-pg/profile-framedphoto-shrink_200_200/0/1617672769411?e=1643169600&v=beta&t=NQuGNexWSV9k4ZqugSNXu8IXs8eQnLugcNug72bUEoc" />
                         </div>
                         <div className="bottom">
                             <h1>Michael Maalouf</h1>
@@ -42,7 +42,7 @@ export default function Portfolio() {
                 <div className="lawrence">
                     <div className="avatar">
                         <div className="top">
-                            <AccountCircleOutlined sx={{ color: "white" }} className="icon" />
+                            <img className="avatar-image" alt="" src="https://github.com/acortes417/AlphaWeb/blob/lawrence's-branch/src/assets/lawrenceTempPic.jpeg?raw=true" />
                         </div>
                         <div className="bottom">
                             <h1>Lawrence Lim</h1>

@@ -71,10 +71,10 @@
                 align-items: center;
                 .top{
                     display: flex;
-                    .icon{
-                        padding-left: 15%;
-                        height: 70%;
-                        width: 70%;         
+                    img{
+                        height: 200px;
+                        width: 200px;
+                        border-radius: 50%;           
                     }
                 }
                 .bottom{
