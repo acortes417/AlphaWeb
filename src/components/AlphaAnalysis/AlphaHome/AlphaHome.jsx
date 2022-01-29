@@ -3,9 +3,9 @@ import Topbar from "../topbar/Topbar"
 import Menu from "../menu/Menu"
 import Intro from "../Intro/Intro"
 import Overview from "../Overview/Overview"
-import MenuScreen from "../MenuScreen/MenuScreen"
 import { useState } from "react"
 import Portfolio from "../Portfolios/Portfolios"
+import InnerMenu from "../InnerMenu/InnerMenu"
 
 export default function AlphaHome() {
     const [menuOpen, setMenuOpen] = useState(false)
@@ -16,7 +16,7 @@ export default function AlphaHome() {
             <div className="sections">
                 <Intro />
                 <Overview />
-                <MenuScreen />
+                <InnerMenu />
                 <Portfolio />
             </div>
         </div>

@@ -1,16 +1,21 @@
 @import "../../../global.scss";
 .profile{
   background-color: $mainColor;
+  
   justify-content: center;
   align-items: center;
   
   .right{
     height: 100%;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     .wrapper2{
       display: flex;
       flex-direction: column;
-      width: 100%;
+      width: 75%;
       height: fit-content;
       justify-content: center;
       align-items: center;
@@ -18,6 +23,7 @@
         border-radius: 10%;
         height: 200px;
         width: 200px;
+        
       }
       .iconList{
         display: flex;
@@ -27,7 +33,9 @@
         align-items: center;
         margin: 10px 0 0;
         padding-right: 40px;
+        overflow: hidden;
         li{
+          margin: 10px 0 0;
           padding: 10px;
           color: white;
           .icons{
@@ -44,22 +52,40 @@
         font-size: 60px;
         font-weight: 200;
         margin:0 5px 0;
+        overflow: hidden;
+        @include mobile{
+          font-size: 24px;
+        }
       }
       .description-text{
+        overflow: hidden;
         font-size: 30px;
         font-weight: 200;
         width: 65%;
         height: fit-content;
         margin: 5px 5px 0;
         color: rgb(197, 209, 178);
+        @include mobile{
+          
+          font-size: 18px;
+          text-align: center;
+          width: 95%;
+        }
       }
       .technologies{
+        overflow: hidden;
         font-size: 30px;
         font-weight: 200;
         width: 65%;
         height: fit-content;
+        text-align: center;
         margin: 10px 5px 0;
         color: white;
+        @include mobile{
+          font-size: 17px;
+          text-align: center;
+          width: 90%;
+        }
       }
     }
     .wrapper3{
@@ -72,16 +98,25 @@
         display: grid;
         font-size: 25px;
         li{
+          overflow: hidden;
           margin:0;
           padding: 0;
           list-style: none;
-          grid-template-columns: 1fr auto;
+          grid-template-columns: 1fr 10px;
           align-items: center;
+          display: flex;
+          flex-direction: row;
+          @include mobile{
+            font-size: 13px;
+          }
           .icon{
             font-style: 25px;
             color:rgb(116, 200, 245);
+            @include mobile{
+              font-size: 10px;
+            }
           }
-          a{
+          h1{
             font-size: inherit;
             color:rgb(116, 200, 245);
             font-weight: 100;

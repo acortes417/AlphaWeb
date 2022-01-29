@@ -1,21 +1,30 @@
+@import "../../../global.scss";
 .MarketWatch{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    height: 100%;
 
     .top{
         width: 93%;
-        padding: 10px;
+        padding-bottom: 2%;
         display: flex;
         align-items: flex-start;
         overflow: hidden;
+        @include mobile{
+            align-items: center;
+            justify-content: center;
+        }
         h1{
             color: white;
-            font-size: 45px;
-            white-space: nowrap;
+            font-size: 50px;
             font-weight: 500;
+            @include mobile{
+                font-size: 30px;
+                font-weight: 400;
+            }
         }
     }
     .wrapper{
@@ -23,22 +32,31 @@
         display: flex;
         align-items:flex-start;
         justify-content: space-between;
-        overflow: hidden;
-        
-        .left{
-            flex: 25%;
+        overflow: hidden; 
+        @include mobile{
+            flex-direction: column;
             align-items: center;
-            flex-wrap: wrap;
+        }
+        .imgWrapper{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
             justify-content: center;
-            
-
-            .itemContainer{
-                img{
-                    width: 80%;
-                    height: 90%;
-                }
-                display: flex;
+            width: 70%;
+            .left{
                 align-items: center;
+                flex-wrap: wrap;
+                justify-content: center;
+                
+                .itemContainer{
+                    img{
+                        width: 70%;
+                        height: 80%;
+                    }
+                    display: flex;
+                    align-items: center;
+                }
+            
             }
         }
         .right{
@@ -46,15 +64,22 @@
             align-items: center;
             justify-content: center;
             color: white;
-
+            overflow: hidden;
+            width: 75%;
+            @include mobile{
+                width: 90%;
+            }
+        
             .itemContainer{
                 display: flex;
                 align-items: center;
-                padding: 5%;
                 h2{
-                    padding: 2%;
+                    padding: 5%;
                     font-size: 20px;
                     font-weight: 100;
+                    @include mobile{
+                        font-size: 15px;
+                    }
                 }
             }
         }

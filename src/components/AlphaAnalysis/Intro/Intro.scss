@@ -13,5 +13,10 @@
         font-weight: 200;
         font-size: 50px;
         text-align: center;
+        @include mobile{
+            font-size: 35px;
+            margin: 0;
+            width: 80%;
+        }
     }
 }

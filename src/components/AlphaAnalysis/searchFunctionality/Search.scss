@@ -1,59 +1,90 @@
+@import "../../../global.scss";
 .Search{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    height: 100%;
+    
     .top{
         width: 93%;
-        padding: 10px;
+        padding-bottom: 2%;
         display: flex;
         align-items: flex-start;
         overflow: hidden;
+        @include mobile{
+            align-items: center;
+            justify-content: center;
+            padding-top: 3%;
+        }
         h1{
             color: white;
             font-size: 50px;
             font-weight: 500;
+            @include mobile{
+                font-size: 30px;
+                font-weight: 400;
+            }
         }
     }
     .wrapper{
         padding-left: 3%;
         display: flex;
-        align-items:flex-start;
-        justify-content: space-between;
-        overflow: hidden;  
-        .left{
-            flex:50%;
+        overflow: hidden; 
+        @include mobile{
+            flex-direction: column;
             align-items: center;
-            display: flex;
-            justify-content: center;
-            width: 100%;
+        }
+    
+        .left{
+            overflow: hidden;
+            height: 90%;
             .itemContainer{
-                img{
-                    height: 600px;
-                    width: auto;
-                }
+                background-color: blue;
                 display: flex;
                 align-items: center;
-        
+                justify-content: center;
+                overflow: hidden;
+                height: 100%;
+                width: 100%;
+                @include mobile{
+                    height: 90%;
+                }
+                img{
+                    overflow: hidden;
+                }
             }
-           
+        
         }
+        
+        
         ul{
             flex:50%;
             align-items: center;
             justify-content: center;
-            
+            display: flex;
+            flex-direction: column;
+            font-size: 20px;
+            overflow: hidden;
+            @include mobile{
+                font-size: 15px;
+            }
             li{
                 display: flex;
                 align-items: center;
-                padding: 5%;
+                padding-bottom: 5%;
+                overflow: hidden;
+                @include mobile{
+                    padding-bottom: 2%;
+                }
                 .icon{
                     padding-right: 15px;
+                    
                 }
-                h2{
+                h1{
                     color: white;
-                    font-size: 20px;
+                    font-size: inherit;
                     font-weight: 100;
                 }
             }

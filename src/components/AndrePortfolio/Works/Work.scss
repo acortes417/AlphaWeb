@@ -22,9 +22,16 @@
         align-items: center;
         justify-content: center;
         flex-wrap: wrapm;
+        @include mobile{
+            width: 95%;
+        }
         .item{
             width: 520px;
             height: 260px;
+            @include mobile{
+                width: 300px;
+                height: 160px;
+            }
             border-radius: 20px;
             justify-content: center;
             align-items: center;

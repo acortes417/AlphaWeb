@@ -1,16 +1,56 @@
-.Top{
-    height: 100%;
-    width: 100%;
-    .Tabs{
-        width: 20%;
-        color: white;
+@import "../../../global.scss";
+.works{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+    .arrow{
+        height: 60px;
+        position: absolute;
+
+        &.left{
+            left: 100px;
+            @include mobile{
+                left: 30px;
+            }
+        }
+        &.right{
+            right: 100px;
+            @include mobile{
+                right: 30px;
+            }
+        }
+    }
+
+    .slider{
+        height: 90%;
+        display: flex;
+        position: absolute;
+        left: 0;
+        transition: all .5s ease-out;
+        overflow: hidden;
+        .container{
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            .item{
+                @include mobile{
+                    width: 90%;
+                    margin-bottom: 10%;
+                }
+                pointer-events: none;
+                overflow: hidden;
+                width: 70%;
+                height: 90%;
+                border-radius:20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: $menuClickColor;
+            }
+        }
     }
 }
-.BoxTab{
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-    

@@ -6,21 +6,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
     
     .left{
         color: white;
         display: flex;
         width: 70%;
-        align-items:flex-start;
-        justify-content: center;
         flex-direction: column;
         padding-bottom: 2%;
+        @include mobile{
+            width: 90%;
+        }
         .hello{
             font-size: 20px;
             font-weight: 100;
         }
         .myName{
+            @include mobile{
+                font-size: 50px;
+            }
             font-size: 70px;
             font-weight: 200;
             color: rgb(116, 200, 245); //change this line for my red name
@@ -28,13 +31,16 @@
         }
         .top{
             font-size: 50px;
+            @include mobile{
+                font-size: 40px;
+            }
             font-weight: 200;
             color: white;
             text-decoration: none;        
         }
         .bottomText{
-            width: 70%;
-            font-size: 30px;
+            width: 90%;
+            font-size: 25px;
             font-weight: 200;
             color: rgb(116, 200, 245); //this is the line for the bottom red text in the into
             

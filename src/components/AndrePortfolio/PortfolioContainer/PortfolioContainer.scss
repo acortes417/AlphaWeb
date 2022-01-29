@@ -2,7 +2,6 @@
 .app{
     height: 100vh;
     .sections{
-        width: 100%;
         height: calc(100vh - 70px);
         background-color: $mainColor;
         position: relative;
@@ -10,6 +9,9 @@
         scroll-behavior: smooth;
         scroll-snap-type: y mandatory;
         scrollbar-width: none;
+        -webkit-box-align: 0;
+        flex-grow: 0;
+        flex-shrink: 0;
         &::-webkit-scrollbar{
             display: none;
         }
