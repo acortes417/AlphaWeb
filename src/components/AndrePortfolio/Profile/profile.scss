@@ -7,6 +7,7 @@
   
   .right{
     height: 100%;
+    width: 100%;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -16,6 +17,9 @@
       display: flex;
       flex-direction: column;
       width: 75%;
+      @include mobile{
+        width: 100%;
+      }
       height: fit-content;
       justify-content: center;
       align-items: center;
@@ -26,20 +30,28 @@
         
       }
       .iconList{
+        
         display: flex;
         flex-direction: row;
         width: fit-content;
         justify-content: center;
         align-items: center;
         margin: 10px 0 0;
+        @include mobile{
+          margin: 2px 0 0;
+        }
         padding-right: 40px;
         overflow: hidden;
         li{
           margin: 10px 0 0;
+          @include mobile{
+            margin: 5px 0 0;
+          }
           padding: 10px;
           color: white;
           .icons{
             color: white;
+            
           }
           .resume{
             height: 50px;
@@ -54,7 +66,7 @@
         margin:0 5px 0;
         overflow: hidden;
         @include mobile{
-          font-size: 24px;
+          font-size: 35px;
         }
       }
       .description-text{
@@ -89,37 +101,43 @@
       }
     }
     .wrapper3{
-      height: wrap-conent;
       width: 100%;
       display: flex;
       justify-content: center;
-      margin: 20px 0 0;
+      align-items: center;
+      padding: 3%;
+      margin-right: 25px;
       .bottomTwo{        
-        display: grid;
+        display: flex;
+        flex-direction: column;
         font-size: 25px;
+        @include mobile{
+          width: 100%;
+        }
         li{
           overflow: hidden;
-          margin:0;
-          padding: 0;
-          list-style: none;
-          grid-template-columns: 1fr 10px;
           align-items: center;
           display: flex;
           flex-direction: row;
           @include mobile{
             font-size: 13px;
+            width: 100%;
           }
           .icon{
             font-style: 25px;
             color:rgb(116, 200, 245);
             @include mobile{
-              font-size: 10px;
+              font-size: 12px;
             }
           }
           h1{
             font-size: inherit;
             color:rgb(116, 200, 245);
             font-weight: 100;
+            @include mobile{
+              font-size: 12px;
+            }
+
           }
         }
       }

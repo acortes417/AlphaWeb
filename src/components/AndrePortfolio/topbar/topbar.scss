@@ -3,7 +3,7 @@
     width:100%;
     height: 70px;
     background-color: $menuClickColor;
-    color: rgb(228, 214, 192); //this is the color for the top baby
+    color: rgb(228, 214, 192); 
     position: fixed;
     top: 0;
     z-index: 3;
@@ -15,17 +15,10 @@
             display: flex;
             align-items: center;
             width: 50%;
-           
-            .logo{
-                padding-left: 2%;
-                padding-right: 5%;
+            
+            a{
                 font-size: 40px;
-                font-weight: 700;
-                text-decoration: none;
-                color: inherit;
-                @include mobile{
-                    font-size: 30px;
-                }
+                color: rgb(228, 214, 192);
             }
             .itemContainer{
                 display: flex;

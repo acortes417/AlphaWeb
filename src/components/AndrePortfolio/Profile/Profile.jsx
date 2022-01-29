@@ -25,7 +25,7 @@ export default function Profile() {
                         </li>
                     </ul>
                     <h1 className="name-header">
-                        About me
+                        About Me
                     </h1>
                     <p className="description-text">
                         <span>I graduated with my BS in computer science in the fall of 2020.</span>
