@@ -16,7 +16,7 @@
     .wrapper2{
       display: flex;
       flex-direction: column;
-      width: 75%;
+      width: 90%;
       @include mobile{
         width: 100%;
       }
@@ -71,6 +71,7 @@
       }
       .description-text{
         overflow: hidden;
+        text-align: center;
         font-size: 30px;
         font-weight: 200;
         width: 65%;

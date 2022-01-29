@@ -15,8 +15,31 @@
     &.active{
         right:0;
     }
+    .top{
+        display: none;
+        @include mobile{
+            display: flex;
+            flex-direction: column;
+            padding-right: 5%;
+            margin-bottom: 70%;
+            color: rgb(228, 214, 192); 
+            margin-bottom: 30%;
+            .icon{
+                font-style: 10px;
+                margin-right: 5px;
+            }
+            span{
+                font-style: 15px;
+                font-weight: 400;
+            }
+        }
+        
+    }
     ul{
-        margin:0;
+        @include mobile{
+            margin-bottom:100%;
+        }
+        
         padding: 0;
         list-style: none;
         font-size: 30px;

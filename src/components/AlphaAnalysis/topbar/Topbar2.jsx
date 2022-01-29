@@ -1,4 +1,4 @@
-import "./topbar.scss"
+import "./topbar2.scss"
 const style = {
     img: {
         width: "50px",
