@@ -9,11 +9,13 @@
 
     .top{
         width: 93%;
+        margin-top: -10%;
         padding-bottom: 2%;
         display: flex;
         align-items: flex-start;
         overflow: hidden;
         @include mobile{
+            margin-top: -2%;
             align-items: center;
             justify-content: center;
         }
@@ -22,8 +24,9 @@
             font-size: 50px;
             font-weight: 500;
             @include mobile{
-                font-size: 30px;
+                font-size: 20px;
                 font-weight: 400;
+                text-align: center;;
             }
         }
     }
@@ -43,23 +46,25 @@
             align-items: center;
             justify-content: center;
             width: 70%;
-            .left{
-                align-items: center;
-                flex-wrap: wrap;
-                justify-content: center;
-                
-                .itemContainer{
-                    img{
-                        width: 70%;
-                        height: 80%;
-                    }
-                    display: flex;
-                    align-items: center;
-                }
-            
+            height: 100%;
+            overflow: hidden;
+            @include mobile{
+                width: 90%;
+                height: fit-content;
             }
+            .left{
+                img{
+                    width: 80%;
+                    height: 90%;
+                }
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }          
+            
         }
         .right{
+            padding-top: 5%;
             flex: 50%;
             align-items: center;
             justify-content: center;
@@ -67,6 +72,7 @@
             overflow: hidden;
             width: 75%;
             @include mobile{
+                padding: none;
                 width: 90%;
             }
         
@@ -74,11 +80,12 @@
                 display: flex;
                 align-items: center;
                 h2{
-                    padding: 5%;
                     font-size: 20px;
+                    padding: 10px;
                     font-weight: 100;
                     @include mobile{
-                        font-size: 15px;
+                        padding: 1%;
+                        font-size: 12px;
                     }
                 }
             }

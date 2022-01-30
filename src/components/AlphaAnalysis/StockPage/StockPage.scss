@@ -23,7 +23,7 @@
             font-size: 50px;
             font-weight: 500;
             @include mobile{
-                font-size: 25px;
+                font-size: 20px;
                 font-weight: 400;
                 text-align: center;
             }
@@ -45,21 +45,20 @@
             align-items: center;
             justify-content: center;
             width: 70%;
-            .left{
-                align-items: center;
-                flex-wrap: wrap;
-                justify-content: center;
-                
-                .itemContainer{
-                    img{
-                        width: 70%;
-                        height: 80%;
-                    }
-                    display: flex;
-                    align-items: center;
-                }
-            
+            height: 100%;
+            overflow: hidden;
+            @include mobile{
+                width: 90%;
             }
+            .left{
+                img{
+                    width: 80%;
+                    height: 90%;
+                }
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }         
         }
         .right{
             flex: 50%;
@@ -80,7 +79,8 @@
                     font-size: 20px;
                     font-weight: 100;
                     @include mobile{
-                        font-size: 15px;
+                        padding: 1%;
+                        font-size: 12px;
                         width: 90%;
                     }
                 }

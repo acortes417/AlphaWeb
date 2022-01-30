@@ -11,7 +11,7 @@ const style = {
     },
     sm: {
         color: 'white',
-        fontSize: 40
+        fontSize: 35
     }
 }
 export default function StockPage() {
@@ -23,20 +23,16 @@ export default function StockPage() {
         <div className="StockPage" id="StockPage">
             <div className="top">
                 <h1>
-                    Stock Page and Comparing Stocks
+                    Stock Page & Comparing Stocks
                 </h1>
             </div>
             <div className="wrapper">
                 <div className="imgWrapper">
                     <div className="left">
-                        <div className="itemContainer">
-                            <img src={Demo} alt="" className='logo' />
-                        </div>
+                        <img src={Demo} alt="" className='logo' />
                     </div>
                     <div className="left">
-                        <div className="itemContainer">
-                            <img src={compareDemo} alt="" className='logo' />
-                        </div>
+                        <img src={compareDemo} alt="" className='logo' />
                     </div>
                 </div>
 

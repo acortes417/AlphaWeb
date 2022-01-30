@@ -11,7 +11,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
         <div className={"topbar " + (menuOpen && "active")}>
             <div className="wrapper">
                 <div className="left">
-                    <a href="Intro">Alpha</a>
+                    <a href="#intro">Alpha</a>
                     <img src="https://t4.ftcdn.net/jpg/03/81/04/27/360_F_381042793_8YESDNPxXds2UCeZ1BEDXOudHQOWF7eE.jpg" style={style.img} href="#intro" alt="" />
                 </div>
                 <div className="right">

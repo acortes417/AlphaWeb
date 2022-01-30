@@ -10,7 +10,7 @@ const style = {
     },
     sm: {
         color: 'white',
-        fontSize: 40
+        fontSize: 35
     }
 }
 export default function Plaid() {
@@ -26,15 +26,10 @@ export default function Plaid() {
             <div className="wrapper">
                 <div className="imgWrapper">
                     <div className="left">
-                        <div className="itemContainer">
-                            <img src={PlaidGif} alt="" ></img>
-                        </div>
-
+                        <img src={PlaidGif} alt="" ></img>
                     </div>
                     <div className="left">
-                        <div className="itemContainer">
-                            <img src={portfolioGif} alt="" className='logo' />
-                        </div>
+                        <img src={portfolioGif} alt="" className='logo' />
                     </div>
                 </div>
 

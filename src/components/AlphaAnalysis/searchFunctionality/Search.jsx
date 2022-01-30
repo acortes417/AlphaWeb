@@ -27,8 +27,7 @@ export default function SearchClass() {
             </div>
             <div className="wrapper">
                 <div className="left">
-                    <div className="itemContainer">
-
+                    <div className="imgWrapper">
                         <img src={searchDemo} alt="" />
                     </div>
                 </div>

@@ -11,7 +11,7 @@ const style = {
     },
     sm: {
         color: 'white',
-        fontSize: 40
+        fontSize: 35
     }
 }
 export default function MarketWatch() {
@@ -29,14 +29,10 @@ export default function MarketWatch() {
             <div className="wrapper">
                 <div className="imgWrapper">
                     <div className="left">
-                        <div className="itemContainer">
-                            <img src={Demo} alt="" className='logo' />
-                        </div>
+                        <img src={Demo} alt="" className='logo' />
                     </div>
                     <div className="left">
-                        <div className="itemContainer">
-                            <img src={Main} alt="" className='logo' />
-                        </div>
+                        <img src={Main} alt="" className='logo' />
                     </div>
                 </div>
 

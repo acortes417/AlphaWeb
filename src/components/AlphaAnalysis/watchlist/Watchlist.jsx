@@ -11,7 +11,7 @@ const style = {
     },
     sm: {
         color: 'white',
-        fontSize: 40
+        fontSize: 35
     }
 }
 export default function Watchlist() {
@@ -28,7 +28,7 @@ export default function Watchlist() {
             </div>
             <div className="wrapper">
                 <div className="left">
-                    <div className="itemContainer">
+                    <div className="imgWrapper">
                         <img src={watchlistDemo} alt="" />
                     </div>
 
