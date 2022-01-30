@@ -41,7 +41,6 @@
             overflow: hidden;
             height: 90%;
             .itemContainer{
-                background-color: blue;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -50,9 +49,13 @@
                 width: 100%;
                 @include mobile{
                     height: 90%;
+                    width: 100%;
                 }
                 img{
-                    overflow: hidden;
+                    @include mobile{
+                        height: 90%;
+                        width: 100%;
+                    }
                 }
             }
         
