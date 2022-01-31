@@ -13,10 +13,6 @@ export default function Work() {
     const [, setData] = useState([])
     const list = [
         {
-            id: "featured",
-            title: "Featured",
-        },
-        {
             id: "mobile",
             title: "Stock App",
         },
@@ -31,10 +27,7 @@ export default function Work() {
     ];
     useEffect(() => {
         switch (selected) {
-            case "featured":
-                setData();
-                break;
-            case "moble":
+            case "mobile":
                 setData();
                 break;
             case "web":
@@ -50,7 +43,7 @@ export default function Work() {
     return (
 
         <div className="works" id="works">
-            <h1>Projects I Have Worked On</h1>
+            <h1>My Projects</h1>
             <ul>
                 {list.map(item => (
                     <PortfolioList
