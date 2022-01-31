@@ -46,21 +46,21 @@
             height: 100%;
             width: 100%;
             flex:50%;
+            @include mobile{
+                flex:60%;
+            }
             .imgWrapper{
                 overflow: hidden;
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 height: 100%;
-                img{
-                    height: 100%;
+                img {
+                    max-width: 100%;
+                    max-height: 100%;
+                    object-fit:contain;
                 }
-            }
-            @include mobile{
-                height: 90%;
-                width: 100%;
-                flex:60%
-            }             
+            }         
         }
         
         
@@ -74,7 +74,7 @@
             overflow: hidden;
             @include mobile{
                 font-size: 12px;
-                flex:40
+                flex:40%;
             }
             li{
                 display: flex;

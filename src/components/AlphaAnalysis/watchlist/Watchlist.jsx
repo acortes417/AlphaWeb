@@ -31,7 +31,6 @@ export default function Watchlist() {
                     <div className="imgWrapper">
                         <img src={watchlistDemo} alt="" />
                     </div>
-
                 </div>
                 <ul >
                     <li>
