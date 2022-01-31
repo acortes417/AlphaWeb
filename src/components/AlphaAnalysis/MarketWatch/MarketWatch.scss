@@ -7,15 +7,15 @@
     overflow: hidden;
     height: 100%;
 
-    .top{
+    .top{ 
         width: 93%;
-        margin-top: -10%;
         padding-bottom: 2%;
         display: flex;
         align-items: flex-start;
         overflow: hidden;
         @include mobile{
-            margin-top: -2%;
+            flex:5%;
+            padding-top: 3%;
             align-items: center;
             justify-content: center;
         }
@@ -26,21 +26,24 @@
             @include mobile{
                 font-size: 20px;
                 font-weight: 400;
-                text-align: center;;
+                text-align: center;
             }
         }
     }
     .wrapper{
+
         padding-left: 3%;
         display: flex;
         align-items:flex-start;
         justify-content: space-between;
         overflow: hidden; 
         @include mobile{
+            flex: 95%;
             flex-direction: column;
             align-items: center;
         }
         .imgWrapper{
+            flex:60%;
             display: flex;
             flex-direction: row;
             align-items: center;
@@ -50,18 +53,17 @@
             overflow: hidden;
             @include mobile{
                 width: 90%;
-                height: fit-content;
+                height: 100%;
             }
             .left{
                 img{
-                    width: 80%;
-                    height: 90%;
+                    width: 90%;
+                    height: 100%;
                 }
                 display: flex;
                 align-items: center;
                 justify-content: center;
-            }          
-            
+            }         
         }
         .right{
             padding-top: 5%;
@@ -74,6 +76,7 @@
             @include mobile{
                 padding: none;
                 width: 90%;
+                height: 100%;
             }
         
             .itemContainer{

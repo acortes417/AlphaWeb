@@ -13,21 +13,34 @@ export default function Work() {
     const [, setData] = useState([])
     const list = [
         {
+            id: "featured",
+            title: "Featured",
+        },
+        {
             id: "mobile",
-            title: "Mobile App",
+            title: "Stock App",
         },
         {
             id: "web",
-            title: "Web App",
+            title: "Static Web Page",
         },
-
+        {
+            id: "home netflix",
+            title: "React Native App",
+        },
     ];
     useEffect(() => {
         switch (selected) {
+            case "featured":
+                setData();
+                break;
             case "moble":
                 setData();
                 break;
             case "web":
+                setData();
+                break;
+            case "home netflix":
                 setData();
                 break;
             default:
@@ -37,7 +50,7 @@ export default function Work() {
     return (
 
         <div className="works" id="works">
-            <h1>Portfolio</h1>
+            <h1>Projects I Have Worked On</h1>
             <ul>
                 {list.map(item => (
                     <PortfolioList
@@ -49,11 +62,10 @@ export default function Work() {
                 ))}
             </ul>
             <div className="container">
-                <Link to="/" style={styles.link}>
-                    <div className="item">
-                        <h3>Mobile App</h3>
-                        <img alt="" src={logo}></img>
-                    </div>
+                <Link to="/" className="item" style={styles.link}>
+                    <h3>Stock App</h3>
+                    <img alt="" src={logo}></img>
+
                 </Link>
 
                 <div className="item">

@@ -28,7 +28,7 @@ export default function Profile() {
                         About Me
                     </h1>
                     <p className="description-text">
-                        <span>I graduated with my BS in computer science in the fall of 2020.</span>
+                        <span>I graduated with my BS in computer science in the fall of 2021.</span>
                         <span> My real journey to choosing full-stack development came with a project </span>
                         <span> called Alpha Stock Analysis where I was the project lead that developed</span>
                         <span> the front-end using Kotlin, flask to create a REST API, and used Google Firebase</span>

@@ -29,8 +29,8 @@ export default function Overview() {
                     <h1>Security</h1>
                     <h2>
                         Using <a href="https://plaid.com/" target="_blank" rel="noreferrer"> Plaid</a> we allow users
-                        to securly link their brokerage accounts. No credentials are stored and there is no way for user
-                        information to leak.
+                        to securely link their brokerage accounts. No credentials are stored and there is no way for user
+                        credentials to leak.
                     </h2>
                 </div>
                 <div className="two">
