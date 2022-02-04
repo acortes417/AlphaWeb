@@ -1,12 +1,15 @@
 @import "../../../global.scss";
 .portfolioList{
-    font-size: 15px;
+    font-size: 25px;
     margin-right: 5px;
     padding: 7px;
     border-radius: 10px;
     color: white;
     cursor: pointer;
-    
+    overflow: hidden;
+    @include mobile{
+        font-size: 12px;
+    }
     &.active{
         background-color: $menuClickColor;
         color: rgb(116, 200, 245);
