@@ -22,9 +22,9 @@ export default function StockPage() {
     return (
         <div className="StockPage" id="StockPage">
             <div className="top">
-                <h1>
+                <h2>
                     Stock Page & Comparing Stocks
-                </h1>
+                </h2>
             </div>
             <div className="wrapper">
                 <div className="imgWrapper">

@@ -22,8 +22,9 @@
             color: rgb(116, 200, 245);
             overflow: hidden;
             @include mobile{
-                font-size: 40px;
+                font-size: 35px;
             }
+            padding-bottom: 5px;
         }
         ul{
             overflow: hidden;
@@ -70,7 +71,7 @@
                         font-weight: 200;
                         font-size: 60px;
                         @include mobile{
-                            font-size: 40px;
+                            font-size: 25px;
                         }
                     }
                     h2{
@@ -79,7 +80,7 @@
                         font-weight: 100;
                         font-size: 30px;
                         @include mobile{
-                            font-size: 20px;
+                            font-size: 15px;
                         }
                     }
                 }

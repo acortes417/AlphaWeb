@@ -21,7 +21,7 @@ export default function Plaid() {
     return (
         <div className="Plaid" id="Plaid">
             <div className="top">
-                <h1>Plaid Integration</h1>
+                <h2>Plaid Integration</h2>
             </div>
             <div className="wrapper">
                 <div className="imgWrapper">

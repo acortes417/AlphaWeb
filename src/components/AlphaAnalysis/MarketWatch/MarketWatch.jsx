@@ -22,9 +22,9 @@ export default function MarketWatch() {
     return (
         <div className="MarketWatch" id="MarketWatch">
             <div className="top">
-                <h1>
+                <h2>
                     Market Watchlists
-                </h1>
+                </h2>
             </div>
             <div className="wrapper">
                 <div className="imgWrapper">

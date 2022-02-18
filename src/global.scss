@@ -1,9 +1,16 @@
 $mainColor:#51516b;
 $menuClickColor: #4b4b61;
 
-$width: 768px;
+$width: 820px;
+$lwidth: 1250px;
 @mixin mobile {
     @media(max-width:#{$width}){
-        @content
+        @content;
+    }
+    
+}
+@mixin large{
+    @media(min-width:#{$lwidth}){
+        @content;
     }
 }

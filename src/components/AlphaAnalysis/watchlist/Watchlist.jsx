@@ -22,9 +22,9 @@ export default function Watchlist() {
     return (
         <div className="Watchlist" id="Watchlist">
             <div className="top">
-                <h1>
+                <h2>
                     The Watchlist
-                </h1>
+                </h2>
             </div>
             <div className="wrapper">
                 <div className="left">

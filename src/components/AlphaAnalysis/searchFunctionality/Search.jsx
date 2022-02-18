@@ -21,9 +21,9 @@ export default function SearchClass() {
     return (
         <div className="Search" id="Search">
             <div className='top'>
-                <h1>
-                    Suggestive Search Bar
-                </h1>
+                <h2>
+                    Suggestive Searching
+                </h2>
             </div>
             <div className="wrapper">
                 <div className="left">
