@@ -27,10 +27,3 @@ export const WebPageData = [
         description2: "I helped the team get started learning the new leanguae as its in react rather than what we are used too."
     }
 ]
-export const Netflix = [
-    {
-        title: "Comming Soon",
-        description: "The idea behind this is having a personal netflix app that is only availbe for myself. I would add and have my own server download movies and allow me to stream them anywhere.",
-        description2: "I will be using react native so i can use this on any platform."
-    }
-]
