@@ -13,7 +13,7 @@ export default function App() {
                     <Route exact path="/">
                         <AlphaHome />
                     </Route>
-                    <Route exact path="/portfolio/Andre">
+                    <Route path="/portfolio/Andre">
                         <PortfolioContainer />
                     </Route>
                 </Switch>
