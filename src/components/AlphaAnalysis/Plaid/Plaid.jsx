@@ -14,7 +14,7 @@ const style = {
     }
 }
 export default function Plaid() {
-    const matches = useMediaQuery("(min-width:768px)");
+    const matches = useMediaQuery("(min-width:800px)");
     const getStyle = (isMatch) => {
         return isMatch ? style.default : style.sm
     };

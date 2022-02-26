@@ -2,7 +2,7 @@ import React from 'react'
 import "./MarketWatch.scss"
 import Demo from "../../../assets/MarketWatch.gif"
 import Main from "../../../assets/MainPage.gif"
-import { Whatshot, Storefront, Sort, EventNote } from "@mui/icons-material"
+import { Whatshot, Sort, EventNote } from "@mui/icons-material"
 import { useMediaQuery } from "@mui/material";
 const style = {
     default: {
@@ -15,7 +15,7 @@ const style = {
     }
 }
 export default function MarketWatch() {
-    const matches = useMediaQuery("(min-width:768px)");
+    const matches = useMediaQuery("(min-width:800px)");
     const getStyle = (isMatch) => {
         return isMatch ? style.default : style.sm
     };
@@ -39,11 +39,9 @@ export default function MarketWatch() {
                 <div className="right">
                     <div className="itemContainer">
                         <Whatshot className="icon" sx={getStyle(matches)} />
-                        <h2>Get the latest trending tickers on the market for each day.</h2>
-                    </div>
-                    <div className="itemContainer">
-                        <Storefront className="icon" sx={getStyle(matches)} />
-                        <h2>Users will be able update on how the four major indices are performing in the home page</h2>
+                        <h2>Get the latest trending tickers on the market for each day.
+                            Users will also be updated on how the four major indices are performing in the home page
+                        </h2>
                     </div>
                     <div className="itemContainer">
                         <Sort className="icon" sx={getStyle(matches)} />

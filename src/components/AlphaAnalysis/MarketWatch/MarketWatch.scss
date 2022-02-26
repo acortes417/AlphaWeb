@@ -40,28 +40,36 @@
             flex-direction: column;
             align-items: center;
         }
+        @include tablet{
+            flex-direction: column;
+            align-items: center;
+        }
+        @include mid{
+            max-width: 800px;
+        }
         .imgWrapper{
-            flex:50%;
+            flex:60%;
             display: flex;
             flex-direction: row;
             align-items: center;
             justify-content: center;
             max-height: 100%;
-            height: 100%;
             overflow: hidden;
             @include mobile{
                 width: 90%;
             }
             .left{
+                padding-right: 10px;
                 img{
-                    max-height: 80%;
-                    height: 80%;
-                    max-width: 80%;
-                    @include large{
-                        width:78%;
-                    }
+                    max-height: 700px;
+                    max-width: 300px;
                     @include mobile{
-                        width: 68%;
+                        max-height: 230px;
+                        max-width: 85px;
+                    }
+                    @include tablet{
+                        max-height: 350px;
+                        max-width: 300px;
                     }
                 }
                 display: flex;
@@ -76,16 +84,16 @@
             justify-content: center;
             color: white;
             overflow: hidden;
-            width: 75%;
             @include mobile{
                 padding: none;
                 width: 90%;
                 height: 100%;
             }
-            @include large{
-                padding-top: 5%;
+            @include tablet{
+                padding-bottom: 3%;
+                padding-top: 0%;
+                width:90%;
             }
-            
             .itemContainer{
                 display: flex;
                 align-items: center;
