@@ -4,6 +4,7 @@ import PortfolioContainer from "./components/AndrePortfolio/PortfolioContainer/P
 import React from "react";
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
 export default function App() {
     <p>My Token = {window.token}</p>
     return (
@@ -13,7 +14,7 @@ export default function App() {
                     <Route exact path="/">
                         <AlphaHome />
                     </Route>
-                    <Route strict path="/portfolio/Andre">
+                    <Route path="/Andre">
                         <PortfolioContainer />
                     </Route>
                 </Switch>
