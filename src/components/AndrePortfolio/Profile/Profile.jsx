@@ -1,15 +1,15 @@
 import "./profile.scss"
 import { ArrowRight } from '@mui/icons-material';
 import { SocialIcon } from 'react-social-icons';
-import Pdf from '../../../assets/AndreCortesResume-converted.pdf'
-
+import Pdf from '../../../assets/AndreCortesResume-converted.pdf';
+import Picture from '../../../assets/Profile_Pic.png';
 export default function Profile() {
 
     return (
         <div className="profile" id="AboutMe">
             <div className="right">
                 <div className="wrapper2">
-                    <img className="avatar-image" alt="" src="https://media-exp1.licdn.com/dms/image/C5603AQHUAj2mtcsRYw/profile-displayphoto-shrink_200_200/0/1615051317515?e=1646870400&v=beta&t=Ac7CRjX70540pfqezqHMHEOdvasDgHXBpGgoo9MDkC8" />
+                    <img className="avatar-image" alt="" src={Picture} />
                     <ul className="iconList">
                         <li>
                             <SocialIcon className="icons" bgColor="white" url="https://github.com/acortes417" />

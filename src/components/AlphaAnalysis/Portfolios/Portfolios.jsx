@@ -1,4 +1,5 @@
 import "./Portfolios.scss"
+import Profile from '../../../assets/Profile_Pic.png'
 import { Link } from 'react-router-dom'
 const styles = {
     link: {
@@ -15,7 +16,7 @@ export default function Portfolio() {
                 <Link to="/Andre" className="andre" style={styles.link}>
                     <div className="avatar">
                         <div className="top">
-                            <img className="avatar-image" alt="" src="https://media-exp1.licdn.com/dms/image/C5603AQHUAj2mtcsRYw/profile-displayphoto-shrink_200_200/0/1615051317515?e=1646870400&v=beta&t=Ac7CRjX70540pfqezqHMHEOdvasDgHXBpGgoo9MDkC8" />
+                            <img className="avatar-image" alt="" src={Profile} />
                         </div>
                         <div className="bottom">
                             <h1>Andre Cortes</h1>
